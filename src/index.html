@@ -1,22 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="stylesheet" href="styles.css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>PakePlus App</title>
-        <script type="module" src="/main.js" defer></script>
-    </head>
+<html lang="">
 
-    <body>
-        <main class="container">
-            <h1>Welcome to PakePlus</h1>
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 预加载关键字体 -->
+  <link rel="preload" href="/font/neutral/Agdasima/Agdasima-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="/font/positive/Atma/Atma-Light.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="/font/negative/Eater/Eater-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <title>TagMap</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+  <script type="module" crossorigin src="/assets/index-DqLDhAKM.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CGOpieIm.css">
+</head>
 
-            <form class="row" id="greet-form">
-                <input id="greet-input" placeholder="Enter a name..." />
-                <button type="submit">Greet</button>
-            </form>
-            <p id="greet-msg"></p>
-        </main>
-    </body>
+<body>
+  <div id="app"></div>
+</body>
+
 </html>
